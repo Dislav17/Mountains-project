@@ -1,4 +1,7 @@
+@import 'normalize.css/normalize.css';
+
 body {
+    box-sizing: border-box;
     background-color: #0B1D26;
 } 
 
@@ -39,13 +42,17 @@ a:hover {
 
 /* end fonts */
 
+.navbar {
+    padding: 40px 0 0;
+}
+
 /* start header */
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 64px 80px 0;
+    padding: 0 80px;
     font-size: 16px;
 }
 
