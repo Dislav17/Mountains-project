@@ -1,0 +1,73 @@
+body {
+    background-color: #0B1D26;
+} 
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+/* start fonts */
+
+@font-face {
+    font-family: 'Gilroy';
+    src: 
+        url(/fonts/Gilroy/Gilroy-ExtraBold.otf),
+        url(/fonts/Gilroy/Gilroy-Light.otf);  
+}
+
+@font-face {
+    font-family: 'Chronicle Display';
+    src: 
+        url(/fonts/ChronicleDisplay/Chronicle\ Display\ Black.otf),
+        url(/fonts/ChronicleDisplay/Chronicle\ Display\ Light\ Italic.otf),
+        url(/fonts/ChronicleDisplay/Chronicle\ Display\ Roman.otf),
+        url(/fonts/ChronicleDisplay/Chronicle\ Display\ Semibold.otf);  
+}
+
+.ff-Gilroy {
+    font-family: 'Gilroy';
+}
+
+.ff-ChronDisplay {
+    font-family: 'Chronicle Display';
+}
+
+/* end fonts */
+
+/* start header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 80px 0;
+    font-size: 16px;
+}
+
+.header-logo {
+    font-size: 32px;
+}
+
+.header-nav a {
+    padding: 8px 24px;
+}
+
+.header-account a {
+    display: flex;
+    align-items: center;
+}
+
+.header-account img {
+    margin-right: 8px;
+}
+
+/* end header */
+
+
+
+
